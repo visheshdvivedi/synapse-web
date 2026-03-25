@@ -1,0 +1,19 @@
+{
+    "NavigationBar": {
+        "appname": "Synapse",
+        "features": "Features",
+        "reviews": "Reviews",
+        "pricing": "Pricing",
+        "signIn": "Sign In",
+        "getStartedForFree": "Get Started for Free"
+    },
+    "HeroDiv": {
+        "badge": "Now with AI-powered learning paths",
+        "titleLeft": "",
+        "titleGradient": "Learn, Teach, Collaborate.",
+        "titleRight": " All in one place",
+        "content": "Synapse combines courses, live classes, chat, and assignments into a single, production-grade learning platform.",
+        "registerBtn": "Start Learning Free",
+        "demoBtn": "Watch Demo"
+    }
+}
