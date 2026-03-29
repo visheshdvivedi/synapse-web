@@ -4,6 +4,24 @@ import { Button } from '../ui/button';
 
 const HeroDiv = () => {
     const t = useTranslations("HeroDiv");
+    const stats = [
+        {
+            "title": "50K+",
+            "content": "Active Learners"
+        },
+        {
+            "title": "1,200+",
+            "content": "Courses"
+        },
+        {
+            "title": "98%",
+            "content": "Satisfaction"
+        },
+        {
+            "title": "500+",
+            "content": "Instructors"
+        }
+    ]
     return (
         <div className='flex flex-col justify-center items-center'>
 
@@ -31,6 +49,16 @@ const HeroDiv = () => {
                 <Button variant="outline" size="lg">
                     {t("demoBtn")}
                 </Button>
+            </div>
+
+            {/* stats card */}
+            <div className='flex flex-row gap-20 justify-between items-center mt-20'>
+                {stats.map(stat => (
+                    <div className='text-center flex flex-col gap-3'>
+                        <h3 className='text-black text-4xl font-bold'>{stat.title}</h3>
+                        <p className='text-sm text-muted-foreground'>{stat.content}</p>
+                    </div>
+                ))}
             </div>
 
         </div>
