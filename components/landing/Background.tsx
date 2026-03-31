@@ -6,7 +6,7 @@ type BackgroundProps = {
 
 const Background = ({ children }: BackgroundProps) => {
     return (
-        <div className='w-full h-full px-40 py-24 bg-landing-background flex flex-col justify-center items-center gap-84'>
+        <div className='w-full h-full px-40 py-24 bg-landing-background flex flex-col justify-center items-center gap-72'>
             {children}
         </div>
     )

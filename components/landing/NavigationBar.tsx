@@ -1,8 +1,11 @@
+"use client"
+
 import { NavigationMenu, NavigationMenuLink } from "@/components/ui/navigation-menu"
 import Image from "next/image"
 import { Label } from "../ui/label"
 import { useTranslations } from "next-intl"
 import { Button } from "../ui/button"
+import { useCallback } from "react"
 
 const NavigationBar = () => {
     const t = useTranslations("NavigationBar");
@@ -20,6 +23,14 @@ const NavigationBar = () => {
             "href": "pricing"
         }
     ]
+
+    const signIn = useCallback(() => {
+        window.location.href = "/signin"
+    }, []);
+
+    const register = useCallback(() => {
+        window.location.href = "/register"
+    }, []);
 
     return (
         <NavigationMenu className="p-6 bg-background">
@@ -41,8 +52,8 @@ const NavigationBar = () => {
 
             {/* Right section */}
             <div className="flex flex-row gap-3">
-                <Button variant="outline">{t('signIn')}</Button>
-                <Button variant="accentGradient">{t('getStartedForFree')}</Button>
+                <Button variant="outline" onClick={signIn}>{t('signIn')}</Button>
+                <Button variant="accentGradient" onClick={register}>{t('getStartedForFree')}</Button>
             </div>
 
         </NavigationMenu>

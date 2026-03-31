@@ -1,6 +1,7 @@
 import AboutTool from "@/components/landing/AboutTool"
 import AccelerateLarning from "@/components/landing/AccelerateLarning"
 import Background from "@/components/landing/Background"
+import Footer from "@/components/landing/Footer"
 import HeroDiv from "@/components/landing/HeroDiv"
 import NavigationBar from "@/components/landing/NavigationBar"
 
@@ -13,6 +14,7 @@ export default function Page() {
                 <AboutTool />
                 <AccelerateLarning />
             </Background>
+            <Footer />
         </div>
     )
 }
