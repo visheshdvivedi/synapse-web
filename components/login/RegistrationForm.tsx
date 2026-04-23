@@ -1,11 +1,10 @@
 "use client"
 
-import React from 'react'
 import { Label } from '../ui/label'
 import { Button, GoogleButton } from '../ui/button'
 import { InputGroup, InputGroupAddon, InputGroupInput } from '../ui/input-group'
 
-import { IoLockClosed, IoLockClosedOutline, IoMail, IoMailOutline, IoPersonOutline } from "react-icons/io5";
+import { IoLockClosedOutline, IoMailOutline } from "react-icons/io5";
 import Link from 'next/link'
 
 const SignInForm = () => {
@@ -42,7 +41,7 @@ const SignInForm = () => {
                     </Button>
                 </div>
                 <Label className='flex flex-row justify-center text-center text-muted-foreground'>
-                    Don't have an account ? <Link href="/register" className='text-blue-600 hover:underline'>Register</Link>
+                    Don&apos;t have an account ? <Link href="/register" className='text-blue-600 hover:underline'>Register</Link>
                 </Label>
             </div>
         </div>

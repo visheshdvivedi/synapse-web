@@ -5,7 +5,7 @@ import { Label } from '../ui/label'
 import { Button, GoogleButton } from '../ui/button'
 import { InputGroup, InputGroupAddon, InputGroupInput } from '../ui/input-group'
 
-import { IoLockClosed, IoLockClosedOutline, IoMail, IoMailOutline, IoPersonOutline } from "react-icons/io5";
+import { IoLockClosedOutline, IoMailOutline, IoPersonOutline } from "react-icons/io5";
 import Link from 'next/link'
 
 const RegistrationForm = () => {

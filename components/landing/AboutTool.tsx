@@ -23,7 +23,7 @@ const AboutTool = () => {
             <p className='text-muted-foreground'>A complete learning ecosystem designed for engagement, collaboration and real results</p>
             <div className='grid grid-rows-2 grid-cols-3 gap-5 mt-10'>
                 {cards.map(card => (
-                    <div className='flex flex-col gap-4 justify-start items-start text-start bg-white rounded-lg px-5 py-5 border-primary/30 hover:border-primary/50 border hover:[&_span]:bg-primary/30'>
+                    <div key={card.title} className='flex flex-col gap-4 justify-start items-start text-start bg-white rounded-lg px-5 py-5 border-primary/30 hover:border-primary/50 border hover:[&_span]:bg-primary/30'>
                         <span className='p-3 bg-primary/20 rounded-lg text-primary text-lg font-bold'>
                             {card.icon}
                         </span>

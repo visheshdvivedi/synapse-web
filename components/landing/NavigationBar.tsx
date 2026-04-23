@@ -44,7 +44,7 @@ const NavigationBar = () => {
             {/* Middle section */}
             <div className="flex flex-row gap-2">
                 {navbarOptions.map(option => (
-                    <NavigationMenuLink href={option.href}>
+                    <NavigationMenuLink key={option.title} href={option.href}>
                         {option.title}
                     </NavigationMenuLink>
                 ))}
