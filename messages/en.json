@@ -14,6 +14,31 @@
         "titleRight": " All in one place",
         "content": "Synapse combines courses, live classes, chat, and assignments into a single, production-grade learning platform.",
         "registerBtn": "Start Learning Free",
-        "demoBtn": "Watch Demo"
+        "demoBtn": "Watch Demo",
+        "activeLearners": "Active Learners",
+        "courses": "Courses",
+        "satisfaction": "Satisfaction",
+        "instructors": "Instructors"
+    },
+    "LandingPageAboutDiv": {
+        "title": "Everything you need to learn effectively",
+        "content": "A complete learning ecosystem designed for engagement, collaboration and real results",
+        "liveClassesTitle": "Live Classes",
+        "liveClassesContent": "Join interactive sessions with real-time video, screen sharing, and collaborative tools.",
+        "structuredCoursesTitle": "Structured Courses",
+        "structuredCoursesContent": "Progress through curated modules with video lessons, documents, and quizzes.",
+        "realTimeChatTitle": "Real-Time Chat",
+        "realTimeChatContent": "Collaborate with peers and instructors in course-specific channels.",
+        "communityLearningTitle": "Community Learning",
+        "communityLearningContent": "Connect with thousands of learners and industry-leading instructors.",
+        "smartProgressTitle": "Smart Progress",
+        "smartProgressContent": "Track your learning journey with intelligent analytics and milestones.",
+        "trustedPlatformTitle": "Trusted Platform",
+        "trustedPlatformContent": "Enterprise-grade security with role-based access and data protection."
+    },
+    "LandingAcceleratedLearning": {
+        "title": "Ready to accelerate your learning ?",
+        "content": "Join thousands of learners already using Synapse. Start free, upgrade when you're ready",
+        "getStartedButton": "Get Started For Free"
     }
 }
