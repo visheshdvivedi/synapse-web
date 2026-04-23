@@ -13,8 +13,8 @@ export default function Page() {
             <Background>
                 <HeroDiv />
                 <AboutTool />
-                <AccelerateLarning />
                 <PricingDiv />
+                <AccelerateLarning />
             </Background>
             <Footer />
         </div>
