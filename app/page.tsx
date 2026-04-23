@@ -4,6 +4,7 @@ import Background from "@/components/landing/Background"
 import Footer from "@/components/landing/Footer"
 import HeroDiv from "@/components/landing/HeroDiv"
 import NavigationBar from "@/components/landing/NavigationBar"
+import PricingDiv from "@/components/landing/PricingDiv"
 
 export default function Page() {
     return (
@@ -13,6 +14,7 @@ export default function Page() {
                 <HeroDiv />
                 <AboutTool />
                 <AccelerateLarning />
+                <PricingDiv />
             </Background>
             <Footer />
         </div>
