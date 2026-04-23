@@ -1,11 +1,9 @@
 import React from 'react'
 import Image from 'next/image'
 import { Label } from '../ui/label'
-import { useTranslations } from 'next-intl'
 import Link from 'next/link'
 
 const Footer = () => {
-    const t = useTranslations();
     const links = [
         { name: "Privacy", link: "/privacy" },
         { name: "Terms", link: "/terms" },

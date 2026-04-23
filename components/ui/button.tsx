@@ -75,7 +75,7 @@ function Button({
 
 function GoogleButton({ className, text, ...props }: React.ComponentProps<"button"> & GoogleButtonProps) {
     return (
-        <button className={cn(className, "rounded-lg bg-white border border-black/20 px-5 py-4 flex flex-row justify-center items-center gap-3 hover:bg-gray-200 transition-colors cursor-pointer")}>
+        <button className={cn(className, "rounded-lg bg-white border border-black/20 px-5 py-4 flex flex-row justify-center items-center gap-3 hover:bg-gray-200 transition-colors cursor-pointer", props)}>
             <Image src="/google-btn-image.png" width={20} height={20} alt="google button image" />
             <Label>
                 {text}
