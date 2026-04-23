@@ -40,5 +40,9 @@
         "title": "Ready to accelerate your learning ?",
         "content": "Join thousands of learners already using Synapse. Start free, upgrade when you're ready",
         "getStartedButton": "Get Started For Free"
+    },
+    "landingPricing": {
+        "title": "Simple, transparent pricing",
+        "content": "Start free. Upgrade as you grow."
     }
 }
