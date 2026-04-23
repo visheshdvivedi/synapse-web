@@ -7,19 +7,19 @@ const HeroDiv = () => {
     const stats = [
         {
             "title": "50K+",
-            "content": "Active Learners"
+            "content": t("activeLearners")
         },
         {
             "title": "1,200+",
-            "content": "Courses"
+            "content": t("courses")
         },
         {
             "title": "98%",
-            "content": "Satisfaction"
+            "content": t("satisfaction")
         },
         {
             "title": "500+",
-            "content": "Instructors"
+            "content": t("instructors")
         }
     ]
     return (
